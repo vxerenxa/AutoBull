@@ -3,8 +3,8 @@ import cv2
 
 # Open three webcam feeds
 cap1 = cv2.VideoCapture(0)
-cap2 = cv2.VideoCapture(1)
-cap3 = cv2.VideoCapture(2)
+cap2 = cv2.VideoCapture(2)
+cap3 = cv2.VideoCapture(4)
 
 for cap in [cap1, cap2, cap3]:
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
