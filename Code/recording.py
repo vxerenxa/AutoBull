@@ -2,8 +2,6 @@ import cv2
 import time
 import os
 import numpy as np
-import time
-
 
 # Kamera-IDs
 raw_camera_ids = [0, 2, 4]
@@ -72,13 +70,14 @@ for cam_id in sorted_ids:
 
 # Initiale Frames zum Vergleich (für Bewegungserkennung)
 previous_frames = [None] * len(cameras)
-movement_threshold = 500000  # Dieser Wert steuert die Empfindlichkeit
+movement_threshold = 500000  # Empfindlichkeit
 
 pfeil_counter = 1
-cooldown_frames = 30  # Verhindert doppeltes Auslösen
+cooldown_frames = 30
 cooldown = 0
+recording = False  # Aufnahme-Status
 
-print("\nBewegungserkennung läuft – 'q' zum Beenden.")
+print("\nDrücke 's' zum Starten, 'e' zum Stoppen der Aufnahme, 'q' zum Beenden.")
 
 while True:
     current_frames = []
@@ -91,7 +90,6 @@ while True:
             continue
         current_frames.append(frame)
 
-        # Bewegungserkennung: aktuelle vs. vorheriges Frame
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         gray = cv2.GaussianBlur(gray, (21, 21), 0)
 
@@ -108,25 +106,37 @@ while True:
 
         previous_frames[idx] = gray
 
-    # Vorschau anzeigen
+    # Vorschau zusammensetzen
     display = [f if f is not None else np.zeros((FRAME_HEIGHT, FRAME_WIDTH, 3), dtype=np.uint8)
                for f in current_frames]
     try:
         combined = cv2.hconcat(display)
     except:
         combined = display[0]
+
+    # Statusanzeige im Bild
     cv2.putText(combined, f"Pfeil Nr.: {pfeil_counter}", (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
+    status_text = "AUFNAHME AKTIV" if recording else "PAUSIERT"
+    color = (0, 0, 255) if recording else (128, 128, 128)
+    cv2.putText(combined, status_text, (10, 70),
+                cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
+
     cv2.imshow("Live-Vorschau", combined)
 
     key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         print("Programm wird beendet.")
         break
+    elif key == ord('s'):
+        recording = True
+        print("🔴 Aufnahme gestartet.")
+    elif key == ord('e'):
+        recording = False
+        print("⏹️ Aufnahme gestoppt.")
 
-    # Wenn Bewegung erkannt → Bild speichern
-    if movement_detected:
-        time.sleep(0.5) 
+    if movement_detected and recording:
+        time.sleep(0.5)
         timestamp = time.strftime("%Y%m%d_%H%M%S")
         for idx, cam_id in enumerate(sorted_ids):
             if current_frames[idx] is not None:
@@ -136,7 +146,6 @@ while True:
         pfeil_counter += 1
         cooldown = cooldown_frames
 
-    # Cooldown-Zähler reduzieren
     if cooldown > 0:
         cooldown -= 1
 
