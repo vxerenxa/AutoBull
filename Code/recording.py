@@ -78,7 +78,7 @@ for cam_id in sorted_ids:
     cameras.append(cap)
 
 previous_frames = [None] * len(cameras)
-movement_threshold = 500000
+movement_threshold = 350000
 
 cooldown_frames = 30
 cooldown = 0
