@@ -2,6 +2,8 @@ import cv2
 import time
 import os
 import numpy as np
+import time
+
 
 # Kamera-IDs
 raw_camera_ids = [0, 2, 4]
@@ -70,7 +72,7 @@ for cam_id in sorted_ids:
 
 # Initiale Frames zum Vergleich (für Bewegungserkennung)
 previous_frames = [None] * len(cameras)
-movement_threshold = 150000  # Dieser Wert steuert die Empfindlichkeit
+movement_threshold = 500000  # Dieser Wert steuert die Empfindlichkeit
 
 pfeil_counter = 1
 cooldown_frames = 30  # Verhindert doppeltes Auslösen
@@ -124,6 +126,7 @@ while True:
 
     # Wenn Bewegung erkannt → Bild speichern
     if movement_detected:
+        time.sleep(0.5) 
         timestamp = time.strftime("%Y%m%d_%H%M%S")
         for idx, cam_id in enumerate(sorted_ids):
             if current_frames[idx] is not None:
