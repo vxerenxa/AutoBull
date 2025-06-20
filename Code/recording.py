@@ -13,8 +13,6 @@ for cam_id in raw_camera_ids:
     cap = cv2.VideoCapture(cam_id)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-    if not cap.isOpened():
-        print(f"❌ Kamera mit ID {cam_id} konnte nicht geöffnet werden.")
     temp_cameras.append(cap)
 
 # Interaktive Zuordnung
@@ -79,14 +77,15 @@ for cam_id in sorted_ids:
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT)
     cameras.append(cap)
 
-# Initiale Frames zum Vergleich (für Bewegungserkennung)
 previous_frames = [None] * len(cameras)
-movement_threshold = 500000  # Empfindlichkeit
+movement_threshold = 500000
 
-pfeil_counter = 1
 cooldown_frames = 30
 cooldown = 0
-recording = False  # Aufnahme-Status
+recording = False
+
+set_counter = 1
+pfeil_in_set = 1
 
 print("\nDrücke 's' zum Starten, 'e' zum Stoppen der Aufnahme, 'q' zum Beenden.")
 
@@ -125,8 +124,8 @@ while True:
     except:
         combined = display[0]
 
-    # Statusanzeige im Bild
-    cv2.putText(combined, f"Pfeil Nr.: {pfeil_counter}", (10, 30),
+    # Statusanzeige
+    cv2.putText(combined, f"Set: {set_counter}  Pfeil: {pfeil_in_set}/3", (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
     status_text = "AUFNAHME AKTIV" if recording else "PAUSIERT"
     color = (0, 0, 255) if recording else (128, 128, 128)
@@ -146,39 +145,28 @@ while True:
         recording = False
         print("⏹️ Aufnahme gestoppt.")
 
-    # Wenn Bewegung erkannt wird und Aufnahme aktiv ist
     if movement_detected and recording:
-        print("🎬 Bewegung erkannt – Starte Videoaufnahme...")
+        print(f"🎬 Bewegung erkannt – Aufnahme Pfeil {pfeil_in_set}/3 in Set {set_counter}...")
         timestamp = time.strftime("%Y%m%d_%H%M%S")
+        identifier = f"set_{set_counter:03d}_pfeil{pfeil_in_set}"
 
-        # VideoWriter für jede Kamera vorbereiten
         video_writers = []
         filenames = []
         for idx, cam_id in enumerate(sorted_ids):
-            filename = os.path.join(SAVE_PATH, f"pfeil_{pfeil_counter}_cam{cam_id}_{timestamp}.avi")
+            filename = os.path.join(SAVE_PATH, f"{identifier}_cam{cam_id}_{timestamp}.avi")
             writer = cv2.VideoWriter(filename, FOURCC, FPS, (FRAME_WIDTH, FRAME_HEIGHT))
             video_writers.append(writer)
             filenames.append(filename)
 
-        # Video aufnehmen für festgelegte Frame-Anzahl
         for _ in range(VIDEO_FRAME_COUNT):
             for idx, cap in enumerate(cameras):
                 ret, frame = cap.read()
                 if ret:
                     video_writers[idx].write(frame)
 
-            # Optionale Vorschau während Aufnahme
-            display = [f if f is not None else np.zeros((FRAME_HEIGHT, FRAME_WIDTH, 3), dtype=np.uint8)
-                       for f in current_frames]
-            try:
-                combined = cv2.hconcat(display)
-                cv2.imshow("Live-Vorschau", combined)
-            except:
-                pass
             if cv2.waitKey(int(1000 / FPS)) & 0xFF == ord('q'):
                 break
 
-        # VideoWriter schließen
         for writer in video_writers:
             writer.release()
 
@@ -186,8 +174,13 @@ while True:
         for fname in filenames:
             print(f"   {fname}")
 
-        pfeil_counter += 1
+        pfeil_in_set += 1
         cooldown = cooldown_frames
+
+        if pfeil_in_set > 3:
+            print(f"✅ Set {set_counter} abgeschlossen.")
+            set_counter += 1
+            pfeil_in_set = 1
 
     if cooldown > 0:
         cooldown -= 1
