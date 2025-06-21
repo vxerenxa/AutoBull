@@ -34,4 +34,4 @@ for filename in video_files:
 
     cap.release()
 
-print("\n🎉 Alle Snapshots gespeichert in:", os.path.abspath(snapshot_folder))
+print("Alle Snapshots gespeichert in:", os.path.abspath(snapshot_folder))
