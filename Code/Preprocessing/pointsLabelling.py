@@ -15,7 +15,7 @@ import numpy as np
 
 # ==== Pfade anpassen ====
 DATA_DIR = "./Data/snapshots"
-LABEL_DIR = "./Data/labels"
+LABEL_DIR = "./Data/bbox_labels"
 LABELS_JSON = "./Data/points/points_labels.json"
 LABELS_CSV = "./Data/points/points_labels.csv"
 IMAGE_SIZE = (480, 360)
