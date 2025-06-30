@@ -218,4 +218,6 @@ set_216,13,Rot,,,,,13
 set_217,20,Rot,,,,,20
 set_218,16,Rot,,,,,16
 set_219,19,Rot,,,,,19
-set_220,16,Rot,,,,,16
+set_220,3,Rot,19,Grün,16,Blau,38
+set_001_pfeil1,1,Rot,1,Grün,1,Blau,3
+set_001_pfeil2,1,Rot,18,Grün,1,Blau,20

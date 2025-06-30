@@ -1102,8 +1102,30 @@
     "total_score": 19
   },
   "set_220": {
-    "pfeil1": "16",
+    "pfeil1": "3",
     "farbe1": "Rot",
-    "total_score": 16
+    "total_score": 38,
+    "pfeil2": "19",
+    "farbe2": "Gr\u00fcn",
+    "pfeil3": "16",
+    "farbe3": "Blau"
+  },
+  "set_001_pfeil1": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "pfeil2": "1",
+    "farbe2": "Gr\u00fcn",
+    "pfeil3": "1",
+    "farbe3": "Blau",
+    "total_score": 3
+  },
+  "set_001_pfeil2": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "pfeil2": "18",
+    "farbe2": "Gr\u00fcn",
+    "pfeil3": "1",
+    "farbe3": "Blau",
+    "total_score": 20
   }
 }
