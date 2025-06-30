@@ -96,14 +96,33 @@ class LabelingApp(QWidget):
         super().__init__()
         self.setWindowTitle("Dart Labeling Tool - Alle Pfeile gleichzeitig")
         self.image_sets = collect_image_sets()
-        self.set_index = 0
         self.all_labels = self.load_labels()
+        self.set_index = self.find_next_unlabeled_from_csv()
+
         self.zoom_mode = False
         self.zoom_center = None
         self.zoomed_cam = None
 
         self.init_ui()
         self.update_display()
+
+    def find_next_unlabeled_from_csv(self):
+        if not os.path.exists(LABELS_CSV):
+            return 0
+
+        with open(LABELS_CSV, newline='') as f:
+            reader = csv.reader(f)
+            next(reader, None)  # Skip header
+            labeled_ids = {row[0] for row in reader if row}
+
+        for idx, (set_id, _) in enumerate(self.image_sets):
+            if set_id not in labeled_ids:
+                return idx
+
+        return 0
+
+    # (rest of your class continues unchanged)
+
 
     def init_ui(self):
         layout = QVBoxLayout()
@@ -120,17 +139,15 @@ class LabelingApp(QWidget):
         button_layout = QHBoxLayout()
         self.save_btn = QPushButton("Speichern & Weiter")
         self.back_btn = QPushButton("Zurück")
-
-        self.unzoom_btn = QPushButton("Zoom zurücksetzen")
-        self.unzoom_btn.clicked.connect(self.reset_zoom)
-        button_layout.addWidget(self.unzoom_btn)
-
+        self.unzoom_btn = QPushButton("Zoom zurück")
 
         self.save_btn.clicked.connect(self.save_and_next)
         self.back_btn.clicked.connect(self.prev_step)
+        self.unzoom_btn.clicked.connect(self.reset_zoom)
 
         button_layout.addWidget(self.back_btn)
         button_layout.addWidget(self.save_btn)
+        button_layout.addWidget(self.unzoom_btn)
         layout.addLayout(button_layout)
 
         self.setLayout(layout)
@@ -177,6 +194,20 @@ class LabelingApp(QWidget):
             return
 
         set_id, data = self.image_sets[self.set_index]
+
+        # Wähle irgendeine Datei zur Analyse der Box-Anzahl
+        first_file = None
+        for pfeil_data in data.values():
+            for f in pfeil_data.values():
+                first_file = f
+                break
+            if first_file:
+                break
+
+        label_path = os.path.join(LABEL_DIR, first_file.replace(".jpg", ".txt")) if first_file else None
+        boxes = parse_yolo_boxes(label_path, *IMAGE_SIZE) if label_path else []
+        box_count = len(boxes)
+
         pfeil_key = "pfeil1"
         cam_keys = sorted(data.get(pfeil_key, {}).keys())
 
@@ -185,12 +216,14 @@ class LabelingApp(QWidget):
                 continue
             label = self.image_labels[i]
             label.mousePressEvent = lambda event, cam_idx=i: self.handle_zoom(event, cam_idx)
+
             filename = data[pfeil_key].get(cam)
             if filename:
                 img_path = os.path.join(DATA_DIR, filename)
                 label_path = os.path.join(LABEL_DIR, filename.replace(".jpg", ".txt"))
                 img = load_image(img_path)
                 boxes = parse_yolo_boxes(label_path, *IMAGE_SIZE)
+
 
                 if self.zoom_mode and i == self.zoomed_cam and self.zoom_center:
                     x, y = self.zoom_center
@@ -200,7 +233,6 @@ class LabelingApp(QWidget):
                     y2 = min(IMAGE_SIZE[1], y + ZOOM_SIZE // 2)
                     img = img.crop((x1, y1, x2, y2)).resize(IMAGE_SIZE)
 
-                    # Boxen anpassen
                     zoomed_boxes = []
                     scale_x = IMAGE_SIZE[0] / (x2 - x1)
                     scale_y = IMAGE_SIZE[1] / (y2 - y1)
@@ -221,21 +253,16 @@ class LabelingApp(QWidget):
             else:
                 label.setText("Kein Bild")
 
-        # Eingabefelder anpassen
         while self.input_layout.count():
             item = self.input_layout.takeAt(0)
             widget = item.widget()
             if widget is not None:
                 widget.setParent(None)
-
-
         self.score_boxes = []
         self.color_boxes = []
 
         current = self.all_labels.get(set_id, {})
-        boxes = parse_yolo_boxes(label_path, *IMAGE_SIZE)
-
-        for i in range(len(boxes)):
+        for i in range(box_count):
             score_box = QComboBox()
             score_box.addItems(SCORE_OPTIONS)
             color_box = QComboBox()
@@ -276,6 +303,12 @@ class LabelingApp(QWidget):
             self.set_index -= 1
             self.update_display()
 
+    def reset_zoom(self):
+        self.zoom_mode = False
+        self.zoom_center = None
+        self.zoomed_cam = None
+        self.update_display()
+
     def handle_zoom(self, event, cam_index):
         x = int(event.pos().x() * IMAGE_SIZE[0] / self.image_labels[cam_index].width())
         y = int(event.pos().y() * IMAGE_SIZE[1] / self.image_labels[cam_index].height())
@@ -284,12 +317,12 @@ class LabelingApp(QWidget):
         self.zoom_center = (x, y)
         self.update_display()
 
-    def reset_zoom(self):
-        self.zoom_mode = False
-        self.zoom_center = None
-        self.zoomed_cam = None
-        self.update_display()
-
+    def find_next_incomplete_index(self):
+        for idx, (set_id, _) in enumerate(self.image_sets):
+            entry = self.all_labels.get(set_id, {})
+            if not entry.get("pfeil1") or not entry.get("farbe1"):
+                return idx  # unvollständig → springe hierher
+        return 0  # alles fertig oder nichts gelabelt → fange vorne an
 
 
 if __name__ == "__main__":
