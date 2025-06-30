@@ -15,10 +15,10 @@
     "farbe1": "Rot"
   },
   "set_003": {
-    "pfeil1": "1",
+    "pfeil1": "4",
     "pfeil2": "1",
     "pfeil3": "1",
-    "total_score": 1,
+    "total_score": 4,
     "farbe1": "Rot"
   },
   "set_004": {
@@ -485,5 +485,625 @@
     "pfeil1": "17",
     "farbe1": "Rot",
     "total_score": 17
+  },
+  "set_095": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_096": {
+    "pfeil1": "9",
+    "farbe1": "Rot",
+    "total_score": 9
+  },
+  "set_097": {
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
+  },
+  "set_098": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_099": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_100": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_101": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_102": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_103": {
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
+  },
+  "set_104": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_105": {
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
+  },
+  "set_106": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_107": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_108": {
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
+  },
+  "set_109": {
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
+  },
+  "set_110": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_111": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_112": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_113": {
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
+  },
+  "set_114": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_115": {
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
+  },
+  "set_116": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_117": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_118": {
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
+  },
+  "set_119": {
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
+  },
+  "set_120": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_121": {
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
+  },
+  "set_122": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_123": {
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
+  },
+  "set_124": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_125": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_126": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_127": {
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
+  },
+  "set_128": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_129": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_130": {
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
+  },
+  "set_131": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_132": {
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
+  },
+  "set_133": {
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
+  },
+  "set_134": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_135": {
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
+  },
+  "set_136": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_137": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_138": {
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
+  },
+  "set_139": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_140": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_141": {
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
+  },
+  "set_142": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_143": {
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
+  },
+  "set_144": {
+    "total_score": 0
+  },
+  "set_145": {
+    "total_score": 0
+  },
+  "set_146": {
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
+  },
+  "set_147": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_148": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_149": {
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
+  },
+  "set_150": {
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
+  },
+  "set_151": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_152": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_153": {
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
+  },
+  "set_154": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_155": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_156": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_157": {
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
+  },
+  "set_158": {
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
+  },
+  "set_159": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_160": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_161": {
+    "total_score": 0
+  },
+  "set_162": {
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
+  },
+  "set_163": {
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
+  },
+  "set_164": {
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
+  },
+  "set_165": {
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
+  },
+  "set_166": {
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
+  },
+  "set_167": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_168": {
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
+  },
+  "set_169": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_170": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_171": {
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
+  },
+  "set_172": {
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
+  },
+  "set_173": {
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
+  },
+  "set_174": {
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
+  },
+  "set_175": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_176": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_177": {
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
+  },
+  "set_178": {
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
+  },
+  "set_179": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_180": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_181": {
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
+  },
+  "set_182": {
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
+  },
+  "set_183": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_184": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_185": {
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
+  },
+  "set_186": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
+  },
+  "set_187": {
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
+  },
+  "set_188": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_189": {
+    "total_score": 0
+  },
+  "set_190": {
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
+  },
+  "set_191": {
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
+  },
+  "set_192": {
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
+  },
+  "set_193": {
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
+  },
+  "set_194": {
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
+  },
+  "set_195": {
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
+  },
+  "set_196": {
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
+  },
+  "set_197": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_198": {
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
+  },
+  "set_199": {
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
+  },
+  "set_200": {
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
+  },
+  "set_201": {
+    "total_score": 0
+  },
+  "set_202": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_203": {
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
+  },
+  "set_204": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_205": {
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
+  },
+  "set_206": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_207": {
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
+  },
+  "set_208": {
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
+  },
+  "set_209": {
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
+  },
+  "set_210": {
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
+  },
+  "set_211": {
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "pfeil2": "19",
+    "farbe2": "Gr\u00fcn",
+    "total_score": 29
+  },
+  "set_212": {
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
+  },
+  "set_213": {
+    "total_score": 0
+  },
+  "set_214": {
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
+  },
+  "set_215": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_216": {
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
+  },
+  "set_217": {
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
+  },
+  "set_218": {
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
+  },
+  "set_219": {
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
+  },
+  "set_220": {
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
   }
 }
