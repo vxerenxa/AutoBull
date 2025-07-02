@@ -3,11 +3,11 @@ import time
 import os
 import numpy as np
 
-# Kamera-IDs
+# camera-IDs
 raw_camera_ids = [0, 2, 4]
 camera_names = {}
 
-# Kameraobjekte öffnen und konfigurieren für Zuordnung
+# camera settings
 temp_cameras = []
 for cam_id in raw_camera_ids:
     cap = cv2.VideoCapture(cam_id)
@@ -15,7 +15,7 @@ for cam_id in raw_camera_ids:
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
     temp_cameras.append(cap)
 
-# Interaktive Zuordnung
+# interactive allocation of cameras
 for idx, cap in enumerate(temp_cameras):
     print(f"\n--- Kamera mit Geräte-ID {raw_camera_ids[idx]} ---")
 
@@ -46,29 +46,28 @@ for idx, cap in enumerate(temp_cameras):
 
     cv2.destroyWindow("Kameraansicht")
 
-# Kameras freigeben
+# release cameras
 for cap in temp_cameras:
     cap.release()
 cv2.destroyAllWindows()
 
-# Ergebnis anzeigen
+# show results of camera allocation
 print("\n✅ Kamerazuweisung abgeschlossen:")
 for name, cam_id in camera_names.items():
     print(f"Kamera {name}: Geräte-ID {cam_id}")
 
-# Aufnahme-Einstellungen
+# recording settings
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 480
 SAVE_PATH = "aufnahmen"
 os.makedirs(SAVE_PATH, exist_ok=True)
 
-# Videoaufnahme-Einstellungen
 VIDEO_DURATION_SECONDS = 1
 FPS = 20
 VIDEO_FRAME_COUNT = VIDEO_DURATION_SECONDS * FPS
 FOURCC = cv2.VideoWriter_fourcc(*'mp4v')  # oder 'mp4v' für .mp4
 
-# Kameras neu öffnen
+# open cameras with assigned IDs
 sorted_ids = [camera_names[k] for k in sorted(camera_names.keys())]
 cameras = []
 for cam_id in sorted_ids:
@@ -77,9 +76,11 @@ for cam_id in sorted_ids:
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT)
     cameras.append(cap)
 
+#threshold for movement detection
 previous_frames = [None] * len(cameras)
 movement_threshold = 350000
 
+#settings for recording
 cooldown_frames = 30
 cooldown = 0
 recording = False
@@ -89,6 +90,7 @@ pfeil_in_set = 1
 
 print("\nDrücke 's' zum Starten, 'e' zum Stoppen der Aufnahme, 'q' zum Beenden.")
 
+#movement detection
 while True:
     current_frames = []
     movement_detected = False
@@ -116,7 +118,7 @@ while True:
 
         previous_frames[idx] = gray
 
-    # Vorschau zusammensetzen
+    # preview of cameras
     display = [f if f is not None else np.zeros((FRAME_HEIGHT, FRAME_WIDTH, 3), dtype=np.uint8)
                for f in current_frames]
     try:
@@ -124,7 +126,7 @@ while True:
     except:
         combined = display[0]
 
-    # Statusanzeige
+    # status of cameras
     cv2.putText(combined, f"Set: {set_counter}  Pfeil: {pfeil_in_set}/3", (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255), 2)
     status_text = "AUFNAHME AKTIV" if recording else "PAUSIERT"
@@ -134,6 +136,7 @@ while True:
 
     cv2.imshow("Live-Vorschau", combined)
 
+    #status of recordings
     key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         print("Programm wird beendet.")
@@ -145,6 +148,7 @@ while True:
         recording = False
         print("⏹️ Aufnahme gestoppt.")
 
+    #actual recording
     if movement_detected and recording:
         print(f"🎬 Bewegung erkannt – Aufnahme Pfeil {pfeil_in_set}/3 in Set {set_counter}...")
         timestamp = time.strftime("%Y%m%d_%H%M%S")
@@ -185,7 +189,7 @@ while True:
     if cooldown > 0:
         cooldown -= 1
 
-# Aufräumen
+# clean
 for cap in cameras:
     cap.release()
 cv2.destroyAllWindows()

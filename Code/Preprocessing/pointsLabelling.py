@@ -12,7 +12,7 @@ from PyQt5.QtCore import Qt, QRect
 from PIL import Image
 import numpy as np
 
-# ==== Pfade anpassen ====
+# adjust paths
 DATA_DIR = "./Data/snapshots"
 LABEL_DIR = "./Data/bbox_labels"
 LABELS_JSON = "./Data/points/points_labels.json"
@@ -28,9 +28,8 @@ FARBEN_RGB = {
     "Blau": (0, 0, 255)
 }
 
-# Hilfsstruktur zur globalen Box-ID-Zuordnung pro Set
+# structure to get boxes
 BOX_CACHE = {}
-
 
 def parse_yolo_boxes(label_path, img_width, img_height):
     boxes = []
@@ -50,10 +49,11 @@ def parse_yolo_boxes(label_path, img_width, img_height):
     return boxes
 
 
+#trying to always get the same box order -> failed
 def get_consistent_box_order(set_id, boxes):
     global BOX_CACHE
     if set_id not in BOX_CACHE:
-        BOX_CACHE[set_id] = boxes[:3]  # Save first occurrence
+        BOX_CACHE[set_id] = boxes[:3]  
         return boxes[:3]
     ref_boxes = BOX_CACHE[set_id]
     matched = []
@@ -88,20 +88,20 @@ def collect_image_sets():
     return sorted(sets.items())
 
 
-# ==== PATCH: apply consistent box order in display ====
+# apply consistent box order in display 
 def apply_box_order_to_image(img_path, label_path, set_id):
     img = load_image(img_path)
     boxes = parse_yolo_boxes(label_path, *IMAGE_SIZE)
     boxes = get_consistent_box_order(set_id, boxes)
     return img, boxes
 
-
+# open image
 def load_image(file_path):
     img = Image.open(file_path).resize(IMAGE_SIZE)
     return img
 
 
-
+# draw boxes
 def draw_boxes(image, boxes, labels=None, colors=None):
     qimage = image.convert("RGB").copy()
     arr = np.array(qimage)
@@ -125,8 +125,10 @@ def draw_boxes(image, boxes, labels=None, colors=None):
     painter.end()
     return pix
 
-
+# GUI for labelling
 class LabelingApp(QWidget):
+
+    # basic assignments
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Dart Labeling Tool - Nur Punkte + feste Farben")
@@ -141,6 +143,7 @@ class LabelingApp(QWidget):
         self.init_ui()
         self.update_display()
 
+    # always start with las labelled image set
     def find_last_labeled_index(self):
         if not self.all_labels:
             return 0
@@ -150,6 +153,7 @@ class LabelingApp(QWidget):
                 return min(idx + 1, len(self.image_sets) - 1)
         return 0
 
+    # buttons for GUI
     def init_ui(self):
         layout = QVBoxLayout()
         self.image_labels = [QLabel(self) for _ in range(3)]
@@ -178,6 +182,7 @@ class LabelingApp(QWidget):
 
         self.setLayout(layout)
 
+    # zoom function
     def make_zoom_handler(self, cam_idx):
         def handler(event):
             x = int(event.pos().x() * IMAGE_SIZE[0] / self.image_labels[cam_idx].width())
@@ -188,6 +193,7 @@ class LabelingApp(QWidget):
             self.update_display()
         return handler
 
+    # image layout
     def build_image_layout(self):
         layout = QVBoxLayout()
         top = QHBoxLayout()
@@ -201,12 +207,14 @@ class LabelingApp(QWidget):
         layout.addLayout(bottom)
         return layout
 
+    # open file if it exists, otherwise create new file 
     def load_labels(self):
         if os.path.exists(LABELS_JSON):
             with open(LABELS_JSON, "r") as f:
                 return json.load(f)
         return {}
 
+    # save allocated points in a structured way
     def save_labels(self):
         os.makedirs(os.path.dirname(LABELS_JSON), exist_ok=True)
         with open(LABELS_JSON, "w") as f:
@@ -224,6 +232,7 @@ class LabelingApp(QWidget):
                 ]
                 writer.writerow(row)
 
+    # update GUI display
     def update_display(self):
         if self.set_index >= len(self.image_sets):
             self.close()
@@ -241,6 +250,7 @@ class LabelingApp(QWidget):
             img = load_image(img_path)
             boxes = parse_yolo_boxes(label_path, *IMAGE_SIZE)
 
+            # make sure that boxes zoom with images
             if self.zoom_mode and i == self.zoomed_cam and self.zoom_center:
                 x, y = self.zoom_center
                 x1 = max(0, x - ZOOM_SIZE // 2)
@@ -276,23 +286,7 @@ class LabelingApp(QWidget):
 
         current = self.all_labels.get(set_id, {})
 
-        prev_values = {}
-        if self.set_index > 0:
-            prev_id, _ = self.image_sets[self.set_index - 1]
-            prev_values = self.all_labels.get(prev_id, {})
-
-        for i in range(3):
-            score_box = QComboBox()
-            score_box.addItems(SCORE_OPTIONS)
-            default_score = current.get(f"wurf{i+1}", prev_values.get(f"wurf{i+1}", SCORE_OPTIONS[0]))
-            score_box.setCurrentText(default_score)
-            self.score_boxes.append(score_box)
-            farb_label = QLabel(FESTE_FARBEN[i])
-            hbox = QHBoxLayout()
-            hbox.addWidget(score_box)
-            hbox.addWidget(farb_label)
-            self.input_layout.addRow(f"Wurf {i+1}:", hbox)
-
+    # save point allocation and calculate total result of image
     def save_and_next(self):
         if self.set_index >= len(self.image_sets):
             return
@@ -315,11 +309,13 @@ class LabelingApp(QWidget):
         self.set_index += 1
         self.update_display()
 
+    # next image
     def prev_step(self):
         if self.set_index > 0:
             self.set_index -= 1
             self.update_display()
 
+    # reset zoom
     def reset_zoom(self):
         self.zoom_mode = False
         self.zoom_center = None
