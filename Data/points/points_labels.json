@@ -1,2422 +1,1131 @@
 {
   "set_001": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 34,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "pfeil2": "2",
+    "pfeil3": "1",
+    "total_score": 1,
+    "farbe1": "Rot",
+    "farbe2": "Gr\u00fcn"
   },
   "set_002": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 44,
-    "pfeil2_value": 25,
-    "pfeil2_zone": "Outer Bull",
-    "score3": 64,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "pfeil2": "1",
+    "pfeil3": "1",
+    "total_score": 19,
+    "farbe1": "Rot"
   },
   "set_003": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 18,
-    "pfeil2_value": 14,
-    "pfeil2_zone": "Single",
-    "score3": 20,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "pfeil2": "1",
+    "pfeil3": "1",
+    "total_score": 4,
+    "farbe1": "Rot"
   },
   "set_004": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 43,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "pfeil2": "1",
+    "pfeil3": "1",
+    "total_score": 18,
+    "farbe1": "Rot"
   },
   "set_005": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 1,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 6,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "pfeil2": "1",
+    "pfeil3": "1",
+    "total_score": 1,
+    "farbe1": "Rot"
   },
   "set_006": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 5,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 22,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "pfeil2": "1",
+    "pfeil3": "1",
+    "total_score": 5,
+    "farbe1": "Rot"
   },
   "set_007": {
-    "score1": 11,
-    "pfeil1_value": 11,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 76,
-    "pfeil3_value": 60,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "11",
+    "pfeil2": "1",
+    "pfeil3": "1",
+    "total_score": 11,
+    "farbe1": "Rot"
   },
   "set_008": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 6,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 9,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_009": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 18,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 36,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_010": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 21,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_011": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 40,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 60,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_012": {
-    "score1": 10,
-    "pfeil1_value": 10,
-    "pfeil1_zone": "Single",
-    "score2": 10,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 24,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
   },
   "set_013": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 17,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_014": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 12,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 15,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_015": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 80,
-    "pfeil2_value": 60,
-    "pfeil2_zone": "Triple",
-    "score3": 108,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_016": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 14,
-    "pfeil2_zone": "Single",
-    "score3": 69,
-    "pfeil3_value": 50,
-    "pfeil3_zone": "Inner Bull"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_017": {
-    "score1": 14,
-    "pfeil1_value": 14,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
   },
   "set_018": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 40,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_019": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 1,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 21,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_020": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 10,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 15,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_021": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 5,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 17,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_022": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 24,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 44,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_023": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 33,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 34,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_024": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_025": {
-    "score1": 13,
-    "pfeil1_value": 13,
-    "pfeil1_zone": "Single",
-    "score2": 31,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 31,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
   },
   "set_026": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 26,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_027": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 27,
-    "pfeil3_value": 10,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_028": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 18,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_029": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 3,
-    "pfeil2_zone": "Triple",
-    "score3": 31,
-    "pfeil3_value": 10,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_030": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 34,
-    "pfeil2_value": 17,
-    "pfeil2_zone": "Single",
-    "score3": 49,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_031": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 26,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_032": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 4,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 16,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_033": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 2,
-    "pfeil2_zone": "Single",
-    "score3": 33,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_034": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 8,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Triple",
-    "score3": 8,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_035": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 11,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 27,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_036": {
-    "score1": 57,
-    "pfeil1_value": 57,
-    "pfeil1_zone": "Triple",
-    "score2": 60,
-    "pfeil2_value": 3,
-    "pfeil2_zone": "Single",
-    "score3": 61,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_037": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Double",
-    "score2": 18,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 18,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_038": {
-    "score1": 21,
-    "pfeil1_value": 21,
-    "pfeil1_zone": "Triple",
-    "score2": 25,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 42,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_039": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 12,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 16,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_040": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Double",
-    "score3": 28,
-    "pfeil3_value": 11,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_041": {
-    "score1": 8,
-    "pfeil1_value": 8,
-    "pfeil1_zone": "Double",
-    "score2": 8,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 33,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_042": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 5,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 17,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_043": {
-    "score1": 8,
-    "pfeil1_value": 8,
-    "pfeil1_zone": "Single",
-    "score2": 20,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 56,
-    "pfeil3_value": 36,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
   },
   "set_044": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 51,
-    "pfeil2_value": 51,
-    "pfeil2_zone": "Triple",
-    "score3": 57,
-    "pfeil3_value": 6,
-    "pfeil3_zone": "Single"
+    "total_score": 0,
+    "pfeil1": "Miss",
+    "farbe1": "Rot"
   },
   "set_045": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 15,
-    "pfeil2_value": 13,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_046": {
-    "score1": 16,
-    "pfeil1_value": 16,
-    "pfeil1_zone": "Single",
-    "score2": 28,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 28,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
   },
   "set_047": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 13,
-    "pfeil2_zone": "Single",
-    "score3": 17,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_048": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Triple",
-    "score2": 32,
-    "pfeil2_value": 14,
-    "pfeil2_zone": "Single",
-    "score3": 46,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_049": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 11,
-    "pfeil2_zone": "Single",
-    "score3": 34,
-    "pfeil3_value": 11,
-    "pfeil3_zone": "Single"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_050": {
-    "score1": 13,
-    "pfeil1_value": 13,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Single",
-    "score3": 39,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Double"
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
   },
   "set_051": {
-    "score1": 8,
-    "pfeil1_value": 8,
-    "pfeil1_zone": "Single",
-    "score2": 8,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 24,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
   },
   "set_052": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 36,
-    "pfeil2_value": 36,
-    "pfeil2_zone": "Triple",
-    "score3": 50,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_053": {
-    "score1": 11,
-    "pfeil1_value": 11,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 14,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 10,
-    "pfeil3_zone": "Double"
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
   },
   "set_054": {
-    "score1": 42,
-    "pfeil1_value": 42,
-    "pfeil1_zone": "Triple",
-    "score2": 84,
-    "pfeil2_value": 42,
-    "pfeil2_zone": "Triple",
-    "score3": 92,
-    "pfeil3_value": 8,
-    "pfeil3_zone": "Single"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_055": {
-    "score1": 14,
-    "pfeil1_value": 14,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 9,
-    "pfeil3_zone": "Single"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_056": {
-    "score1": 14,
-    "pfeil1_value": 14,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_057": {
-    "score1": 9,
-    "pfeil1_value": 9,
-    "pfeil1_zone": "Single",
-    "score2": 24,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 54,
-    "pfeil3_value": 30,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_058": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 41,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Double"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_059": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 27,
-    "pfeil2_value": 27,
-    "pfeil2_zone": "Triple",
-    "score3": 42,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_060": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 12,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 27,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_061": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 16,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_062": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 5,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 25,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_063": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Double",
-    "score2": 20,
-    "pfeil2_value": 8,
-    "pfeil2_zone": "Double",
-    "score3": 30,
-    "pfeil3_value": 10,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_064": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 6,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 10,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_065": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 32,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Double",
-    "score3": 45,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_066": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 25,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_067": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 8,
-    "pfeil2_value": 8,
-    "pfeil2_zone": "Single",
-    "score3": 22,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_068": {
-    "score1": 9,
-    "pfeil1_value": 9,
-    "pfeil1_zone": "Single",
-    "score2": 20,
-    "pfeil2_value": 11,
-    "pfeil2_zone": "Single",
-    "score3": 44,
-    "pfeil3_value": 24,
-    "pfeil3_zone": "Double"
+    "pfeil1": "9",
+    "farbe1": "Rot",
+    "total_score": 9
   },
   "set_069": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 13,
-    "pfeil2_zone": "Single",
-    "score3": 29,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Double"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_070": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 47,
-    "pfeil2_value": 30,
-    "pfeil2_zone": "Triple",
-    "score3": 49,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_071": {
-    "score1": 11,
-    "pfeil1_value": 11,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 14,
-    "pfeil2_zone": "Single",
-    "score3": 29,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
   },
   "set_072": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 8,
-    "pfeil3_value": 8,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_073": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 20,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_074": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 2,
-    "pfeil2_value": 2,
-    "pfeil2_zone": "Single",
-    "score3": 15,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_075": {
-    "score1": 8,
-    "pfeil1_value": 8,
-    "pfeil1_zone": "Single",
-    "score2": 8,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 16,
-    "pfeil3_value": 8,
-    "pfeil3_zone": "Single"
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
   },
   "set_076": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 20,
-    "pfeil2_value": 8,
-    "pfeil2_zone": "Single",
-    "score3": 36,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_077": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 4,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 4,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_078": {
-    "score1": 14,
-    "pfeil1_value": 14,
-    "pfeil1_zone": "Single",
-    "score2": 44,
-    "pfeil2_value": 30,
-    "pfeil2_zone": "Triple",
-    "score3": 61,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_079": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 18,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_080": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 3,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 5,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_081": {
-    "score1": 30,
-    "pfeil1_value": 30,
-    "pfeil1_zone": "Triple",
-    "score2": 31,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 49,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
   },
   "set_082": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 7,
-    "pfeil2_zone": "Single",
-    "score3": 44,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_083": {
-    "score1": 13,
-    "pfeil1_value": 13,
-    "pfeil1_zone": "Single",
-    "score2": 28,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 44,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
   },
   "set_084": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 2,
-    "pfeil2_zone": "Double",
-    "score3": 34,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_085": {
-    "score1": 36,
-    "pfeil1_value": 36,
-    "pfeil1_zone": "Double",
-    "score2": 54,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 74,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_086": {
-    "score1": 10,
-    "pfeil1_value": 10,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Double",
-    "score3": 33,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
   },
   "set_087": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 30,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 70,
-    "pfeil3_value": 40,
-    "pfeil3_zone": "Double"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_088": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 17,
-    "pfeil2_zone": "Single",
-    "score3": 26,
-    "pfeil3_value": 7,
-    "pfeil3_zone": "Single"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_089": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 27,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Double",
-    "score3": 27,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_090": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Single",
-    "score2": 20,
-    "pfeil2_value": 17,
-    "pfeil2_zone": "Single",
-    "score3": 34,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_091": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 26,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 46,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_092": {
-    "score1": 10,
-    "pfeil1_value": 10,
-    "pfeil1_zone": "Single",
-    "score2": 4,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 23,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "pfeil2": "Miss",
+    "farbe2": "Gr\u00fcn",
+    "total_score": 10
   },
   "set_093": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 27,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_094": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 40,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_095": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 32,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Double",
-    "score3": 37,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_096": {
-    "score1": 9,
-    "pfeil1_value": 9,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 7,
-    "pfeil2_zone": "Single",
-    "score3": 21,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "9",
+    "farbe1": "Rot",
+    "total_score": 9
   },
   "set_097": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 7,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 10,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
   },
   "set_098": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 1,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 21,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_099": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 32,
-    "pfeil3_value": 6,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_100": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 10,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 23,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_101": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 26,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_102": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 4,
-    "pfeil2_value": 3,
-    "pfeil2_zone": "Single",
-    "score3": 4,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_103": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_104": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 18,
-    "pfeil2_value": 11,
-    "pfeil2_zone": "Single",
-    "score3": 11,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_105": {
-    "score1": 14,
-    "pfeil1_value": 14,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 20,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_106": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 28,
-    "pfeil2_value": 3,
-    "pfeil2_zone": "Single",
-    "score3": 48,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_107": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Triple",
-    "score2": 16,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Single",
-    "score3": 22,
-    "pfeil3_value": 6,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_108": {
-    "score1": 9,
-    "pfeil1_value": 9,
-    "pfeil1_zone": "Triple",
-    "score2": 37,
-    "pfeil2_value": 28,
-    "pfeil2_zone": "Double",
-    "score3": 54,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_109": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Single",
-    "score2": 12,
-    "pfeil2_value": 9,
-    "pfeil2_zone": "Single",
-    "score3": 24,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_110": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_111": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Double",
-    "score2": 16,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Single",
-    "score3": 34,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_112": {
-    "score1": 57,
-    "pfeil1_value": 57,
-    "pfeil1_zone": "Triple",
-    "score2": 63,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 72,
-    "pfeil3_value": 9,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_113": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_114": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 35,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 55,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_115": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Single",
-    "score2": 4,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 6,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_116": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 24,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 49,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_117": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 26,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 9,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_118": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 37,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 56,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_119": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 7,
-    "pfeil2_zone": "Single",
-    "score3": 40,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_120": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 7,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_121": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_122": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 9,
-    "pfeil2_zone": "Single",
-    "score3": 22,
-    "pfeil3_value": 6,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_123": {
-    "score1": 16,
-    "pfeil1_value": 16,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 35,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
   },
   "set_124": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 32,
-    "pfeil2_value": 13,
-    "pfeil2_zone": "Single",
-    "score3": 71,
-    "pfeil3_value": 39,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_125": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 26,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 28,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_126": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 37,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 40,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_127": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Triple",
-    "score2": 23,
-    "pfeil2_value": 8,
-    "pfeil2_zone": "Single",
-    "score3": 26,
-    "pfeil3_value": 8,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_128": {
-    "score1": 51,
-    "pfeil1_value": 51,
-    "pfeil1_zone": "Triple",
-    "score2": 70,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 82,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_129": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 34,
-    "pfeil2_value": 15,
-    "pfeil2_zone": "Single",
-    "score3": 36,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_130": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 5,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 10,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_131": {
-    "score1": 60,
-    "pfeil1_value": 60,
-    "pfeil1_zone": "Triple",
-    "score2": 63,
-    "pfeil2_value": 3,
-    "pfeil2_zone": "Single",
-    "score3": 67,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_132": {
-    "score1": 14,
-    "pfeil1_value": 14,
-    "pfeil1_zone": "Single",
-    "score2": 32,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 39,
-    "pfeil3_value": 7,
-    "pfeil3_zone": "Single"
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
   },
   "set_133": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 13,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 20,
-    "pfeil3_value": 7,
-    "pfeil3_zone": "Single"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_134": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 9,
-    "pfeil2_zone": "Single",
-    "score3": 31,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_135": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 15,
-    "pfeil2_value": 13,
-    "pfeil2_zone": "Single",
-    "score3": 32,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_136": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 9,
-    "pfeil2_value": 2,
-    "pfeil2_zone": "Single",
-    "score3": 14,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_137": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 38,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 58,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_138": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 62,
-    "pfeil2_value": 57,
-    "pfeil2_zone": "Single",
-    "score3": 67,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_139": {
-    "score1": 40,
-    "pfeil1_value": 40,
-    "pfeil1_zone": "Double",
-    "score2": 52,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 70,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_140": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 35,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 60,
-    "pfeil3_value": 25,
-    "pfeil3_zone": "Outer Bull"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_141": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 15,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 15,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_142": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 9,
-    "pfeil2_value": 3,
-    "pfeil2_zone": "Single",
-    "score3": 27,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_143": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 24,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 29,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_144": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Single",
-    "score2": 1,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 15,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "total_score": 0
   },
   "set_145": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Single",
-    "score2": 5,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 10,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "total_score": 0
   },
   "set_146": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 28,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Double",
-    "score3": 53,
-    "pfeil3_value": 25,
-    "pfeil3_zone": "Outer Bull"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_147": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 11,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 13,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_148": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 34,
-    "pfeil2_value": 9,
-    "pfeil2_zone": "Single",
-    "score3": 34,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_149": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_150": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 29,
-    "pfeil3_value": 6,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_151": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 2,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 6,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_152": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 47,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_153": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 4,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 58,
-    "pfeil3_value": 54,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_154": {
-    "score1": 1,
-    "pfeil1_value": 1,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 18,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_155": {
-    "score1": 60,
-    "pfeil1_value": 60,
-    "pfeil1_zone": "Triple",
-    "score2": 120,
-    "pfeil2_value": 60,
-    "pfeil2_zone": "Triple",
-    "score3": 121,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_156": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 25,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 40,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_157": {
-    "score1": 5,
-    "pfeil1_value": 5,
-    "pfeil1_zone": "Single",
-    "score2": 6,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 24,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "5",
+    "farbe1": "Rot",
+    "total_score": 5
   },
   "set_158": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 19,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_159": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 18,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 21,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_160": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 11,
-    "pfeil2_zone": "Single",
-    "score3": 18,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_161": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 5,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 5,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Single"
+    "total_score": 0
   },
   "set_162": {
-    "score1": 12,
-    "pfeil1_value": 12,
-    "pfeil1_zone": "Single",
-    "score2": 13,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 13,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "12",
+    "farbe1": "Rot",
+    "total_score": 12
   },
   "set_163": {
-    "score1": 9,
-    "pfeil1_value": 9,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 16,
-    "pfeil2_zone": "Single",
-    "score3": 45,
-    "pfeil3_value": 20,
-    "pfeil3_zone": "Single"
+    "pfeil1": "14",
+    "farbe1": "Rot",
+    "total_score": 14
   },
   "set_164": {
-    "score1": 8,
-    "pfeil1_value": 8,
-    "pfeil1_zone": "Single",
-    "score2": 9,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 66,
-    "pfeil3_value": 57,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
   },
   "set_165": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 17,
-    "pfeil2_zone": "Single",
-    "score3": 32,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_166": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 41,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_167": {
-    "score1": 60,
-    "pfeil1_value": 60,
-    "pfeil1_zone": "Triple",
-    "score2": 72,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 85,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_168": {
-    "score1": 8,
-    "pfeil1_value": 8,
-    "pfeil1_zone": "Single",
-    "score2": 13,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 32,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
   },
   "set_169": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 16,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Single",
-    "score3": 20,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_170": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 64,
-    "pfeil2_value": 45,
-    "pfeil2_zone": "Triple",
-    "score3": 72,
-    "pfeil3_value": 8,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_171": {
-    "score1": 16,
-    "pfeil1_value": 16,
-    "pfeil1_zone": "Double",
-    "score2": 35,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 51,
-    "pfeil3_value": 16,
-    "pfeil3_zone": "Single"
+    "pfeil1": "8",
+    "farbe1": "Rot",
+    "total_score": 8
   },
   "set_172": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 7,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_173": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 22,
-    "pfeil2_value": 22,
-    "pfeil2_zone": "Double",
-    "score3": 34,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_174": {
-    "score1": 7,
-    "pfeil1_value": 7,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 11,
-    "pfeil3_zone": "Single"
+    "pfeil1": "7",
+    "farbe1": "Rot",
+    "total_score": 7
   },
   "set_175": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 23,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_176": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 34,
-    "pfeil2_value": 17,
-    "pfeil2_zone": "Single",
-    "score3": 36,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_177": {
-    "score1": 13,
-    "pfeil1_value": 13,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 8,
-    "pfeil2_zone": "Single",
-    "score3": 24,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
   },
   "set_178": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 7,
-    "pfeil2_zone": "Single",
-    "score3": 38,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_179": {
-    "score1": 17,
-    "pfeil1_value": 17,
-    "pfeil1_zone": "Single",
-    "score2": 27,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Single",
-    "score3": 42,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_180": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 20,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 38,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_181": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 6,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 20,
-    "pfeil3_value": 14,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_182": {
-    "score1": 11,
-    "pfeil1_value": 11,
-    "pfeil1_zone": "Single",
-    "score2": 18,
-    "pfeil2_value": 7,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 12,
-    "pfeil3_zone": "Single"
+    "pfeil1": "11",
+    "farbe1": "Rot",
+    "total_score": 11
   },
   "set_183": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 74,
-    "pfeil2_value": 54,
-    "pfeil2_zone": "Triple",
-    "score3": 92,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_184": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 24,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 39,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_185": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 22,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 23,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_186": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Miss",
-    "score2": 3,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 4,
-    "pfeil3_value": 1,
-    "pfeil3_zone": "Single"
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "total_score": 1
   },
   "set_187": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 19,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_188": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Outer Bull",
-    "score2": 31,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 61,
-    "pfeil3_value": 30,
-    "pfeil3_zone": "Triple"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_189": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 18,
-    "pfeil3_value": 18,
-    "pfeil3_zone": "Single"
+    "total_score": 0
   },
   "set_190": {
-    "score1": 10,
-    "pfeil1_value": 10,
-    "pfeil1_zone": "Single",
-    "score2": 10,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 10,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "total_score": 10
   },
   "set_191": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 20,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 37,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_192": {
-    "score1": 16,
-    "pfeil1_value": 16,
-    "pfeil1_zone": "Single",
-    "score2": 21,
-    "pfeil2_value": 5,
-    "pfeil2_zone": "Single",
-    "score3": 26,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
   },
   "set_193": {
-    "score1": 18,
-    "pfeil1_value": 18,
-    "pfeil1_zone": "Single",
-    "score2": 28,
-    "pfeil2_value": 10,
-    "pfeil2_zone": "Single",
-    "score3": 30,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "18",
+    "farbe1": "Rot",
+    "total_score": 18
   },
   "set_194": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 14,
-    "pfeil2_value": 12,
-    "pfeil2_zone": "Single",
-    "score3": 17,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_195": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Double",
-    "score2": 12,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Triple",
-    "score3": 16,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_196": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 34,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 36,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_197": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 28,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_198": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 0,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_199": {
-    "score1": 51,
-    "pfeil1_value": 51,
-    "pfeil1_zone": "Triple",
-    "score2": 55,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 55,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "17",
+    "farbe1": "Rot",
+    "total_score": 17
   },
   "set_200": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 11,
-    "pfeil2_value": 9,
-    "pfeil2_zone": "Single",
-    "score3": 61,
-    "pfeil3_value": 50,
-    "pfeil3_zone": "Inner Bull"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_201": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 16,
-    "pfeil2_value": 16,
-    "pfeil2_zone": "Single",
-    "score3": 21,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "total_score": 0
   },
   "set_202": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 31,
-    "pfeil3_value": 8,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_203": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 6,
-    "pfeil2_value": 6,
-    "pfeil2_zone": "Single",
-    "score3": 21,
-    "pfeil3_value": 15,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Miss",
+    "farbe1": "Rot",
+    "total_score": 0
   },
   "set_204": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 39,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 39,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_205": {
-    "score1": 15,
-    "pfeil1_value": 15,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 4,
-    "pfeil2_zone": "Single",
-    "score3": 8,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "15",
+    "farbe1": "Rot",
+    "total_score": 15
   },
   "set_206": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 51,
-    "pfeil3_value": 25,
-    "pfeil3_zone": "Outer Bull"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_207": {
-    "score1": 6,
-    "pfeil1_value": 6,
-    "pfeil1_zone": "Single",
-    "score2": 25,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 29,
-    "pfeil3_value": 4,
-    "pfeil3_zone": "Single"
+    "pfeil1": "6",
+    "farbe1": "Rot",
+    "total_score": 6
   },
   "set_208": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 6,
-    "pfeil2_value": 2,
-    "pfeil2_zone": "Single",
-    "score3": 11,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_209": {
-    "score1": 3,
-    "pfeil1_value": 3,
-    "pfeil1_zone": "Single",
-    "score2": 23,
-    "pfeil2_value": 20,
-    "pfeil2_zone": "Single",
-    "score3": 23,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 3
   },
   "set_210": {
-    "score1": 25,
-    "pfeil1_value": 25,
-    "pfeil1_zone": "Single",
-    "score2": 26,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 19,
-    "pfeil3_value": 19,
-    "pfeil3_zone": "Single"
+    "pfeil1": "Bull",
+    "farbe1": "Rot",
+    "total_score": 50
   },
   "set_211": {
-    "score1": 29,
-    "pfeil1_value": 10,
-    "pfeil1_zone": "Single",
-    "score2": 38,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 41,
-    "pfeil3_value": 3,
-    "pfeil3_zone": "Single"
+    "pfeil1": "10",
+    "farbe1": "Rot",
+    "pfeil2": "19",
+    "farbe2": "Gr\u00fcn",
+    "total_score": 29
   },
   "set_212": {
-    "score1": 2,
-    "pfeil1_value": 2,
-    "pfeil1_zone": "Single",
-    "score2": 15,
-    "pfeil2_value": 13,
-    "pfeil2_zone": "Single",
-    "score3": 15,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "pfeil1": "2",
+    "farbe1": "Rot",
+    "total_score": 2
   },
   "set_213": {
-    "score1": 0,
-    "pfeil1_value": 0,
-    "pfeil1_zone": "Miss",
-    "score2": 0,
-    "pfeil2_value": 0,
-    "pfeil2_zone": "Miss",
-    "score3": 0,
-    "pfeil3_value": 0,
-    "pfeil3_zone": "Miss"
+    "total_score": 0
   },
   "set_214": {
-    "score1": 4,
-    "pfeil1_value": 4,
-    "pfeil1_zone": "Single",
-    "score2": 5,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 22,
-    "pfeil3_value": 17,
-    "pfeil3_zone": "Single"
+    "pfeil1": "4",
+    "farbe1": "Rot",
+    "total_score": 4
   },
   "set_215": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 73,
-    "pfeil2_value": 54,
-    "pfeil2_zone": "Triple",
-    "score3": 78,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_216": {
-    "score1": 13,
-    "pfeil1_value": 13,
-    "pfeil1_zone": "Single",
-    "score2": 53,
-    "pfeil2_value": 40,
-    "pfeil2_zone": "Double",
-    "score3": 58,
-    "pfeil3_value": 5,
-    "pfeil3_zone": "Single"
+    "pfeil1": "13",
+    "farbe1": "Rot",
+    "total_score": 13
   },
   "set_217": {
-    "score1": 20,
-    "pfeil1_value": 20,
-    "pfeil1_zone": "Single",
-    "score2": 80,
-    "pfeil2_value": 60,
-    "pfeil2_zone": "Triple",
-    "score3": 82,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "20",
+    "farbe1": "Rot",
+    "total_score": 20
   },
   "set_218": {
-    "score1": 16,
-    "pfeil1_value": 16,
-    "pfeil1_zone": "Single",
-    "score2": 17,
-    "pfeil2_value": 1,
-    "pfeil2_zone": "Single",
-    "score3": 27,
-    "pfeil3_value": 10,
-    "pfeil3_zone": "Single"
+    "pfeil1": "16",
+    "farbe1": "Rot",
+    "total_score": 16
   },
   "set_219": {
-    "score1": 19,
-    "pfeil1_value": 19,
-    "pfeil1_zone": "Single",
-    "score2": 36,
-    "pfeil2_value": 17,
-    "pfeil2_zone": "Single",
-    "score3": 38,
-    "pfeil3_value": 2,
-    "pfeil3_zone": "Single"
+    "pfeil1": "19",
+    "farbe1": "Rot",
+    "total_score": 19
   },
   "set_220": {
-    "score1": 16,
-    "pfeil1_value": 16,
-    "pfeil1_zone": "Single",
-    "score2": 35,
-    "pfeil2_value": 19,
-    "pfeil2_zone": "Single",
-    "score3": 52,
-    "pfeil3_value": 13,
-    "pfeil3_zone": "Single"
+    "pfeil1": "3",
+    "farbe1": "Rot",
+    "total_score": 38,
+    "pfeil2": "19",
+    "farbe2": "Gr\u00fcn",
+    "pfeil3": "16",
+    "farbe3": "Blau"
+  },
+  "set_001_pfeil1": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "pfeil2": "1",
+    "farbe2": "Gr\u00fcn",
+    "pfeil3": "1",
+    "farbe3": "Blau",
+    "total_score": 3
+  },
+  "set_001_pfeil2": {
+    "pfeil1": "1",
+    "farbe1": "Rot",
+    "pfeil2": "18",
+    "farbe2": "Gr\u00fcn",
+    "pfeil3": "1",
+    "farbe3": "Blau",
+    "total_score": 20
   }
 }
