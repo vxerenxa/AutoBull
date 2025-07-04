@@ -1,5 +1,5 @@
 set_id,pfeil1,farbe1,pfeil2,farbe2,pfeil3,farbe3,total_score
-set_001,1,Rot,2,Grün,1,,1
+set_001,1,Rot,2,Grï¿½n,1,,1
 set_002,19,Rot,1,,1,,19
 set_003,4,Rot,1,,1,,4
 set_004,18,Rot,1,,1,,18
@@ -90,7 +90,7 @@ set_088,2,Rot,,,,,2
 set_089,17,Rot,,,,,17
 set_090,3,Rot,,,,,3
 set_091,Bull,Rot,,,,,50
-set_092,10,Rot,Miss,Grün,,,10
+set_092,10,Rot,Miss,Grï¿½n,,,10
 set_093,1,Rot,,,,,1
 set_094,17,Rot,,,,,17
 set_095,20,Rot,,,,,20
@@ -209,7 +209,7 @@ set_207,6,Rot,,,,,6
 set_208,4,Rot,,,,,4
 set_209,3,Rot,,,,,3
 set_210,Bull,Rot,,,,,50
-set_211,10,Rot,19,Grün,,,29
+set_211,10,Rot,19,Grï¿½n,,,29
 set_212,2,Rot,,,,,2
 set_213,,,,,,,0
 set_214,4,Rot,,,,,4
@@ -218,6 +218,4 @@ set_216,13,Rot,,,,,13
 set_217,20,Rot,,,,,20
 set_218,16,Rot,,,,,16
 set_219,19,Rot,,,,,19
-set_220,3,Rot,19,Grün,16,Blau,38
-set_001_pfeil1,1,Rot,1,Grün,1,Blau,3
-set_001_pfeil2,1,Rot,18,Grün,1,Blau,20
+set_220,3,Rot,19,Grï¿½n,16,Blau,38

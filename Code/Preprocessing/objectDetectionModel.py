@@ -7,7 +7,7 @@ from pathlib import Path
 #folder structure and basic settings
 BASE_DIR = Path(__file__).resolve().parents[1]  
 SOURCE_IMG_DIR = BASE_DIR / 'Data/snapshots'
-SOURCE_LABEL_DIR = BASE_DIR / 'Data/labels'
+SOURCE_LABEL_DIR = BASE_DIR / 'Data/bbox_labels'
 DEST_DIR = BASE_DIR / 'Data/YOLO-ready'
 INFER_DIR = BASE_DIR / 'Data/aufnahmen'
 KORREKTUR_DIR = BASE_DIR / 'Data/korrektur_benoetigt'

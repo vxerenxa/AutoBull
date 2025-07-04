@@ -2,8 +2,8 @@ import cv2
 import os
 
 # define paths
-video_folder = "aufnahmen"
-snapshot_folder = "snapshots"
+video_folder = ".../Data/videos"
+snapshot_folder = ".../Data/snapshots"
 os.makedirs(snapshot_folder, exist_ok=True)
 
 # iterate through all video files in the folder
