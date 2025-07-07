@@ -59,7 +59,7 @@ for name, cam_id in camera_names.items():
 # recording settings
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 480
-SAVE_PATH = "aufnahmen"
+SAVE_PATH = "./Data/aufnahmen"
 os.makedirs(SAVE_PATH, exist_ok=True)
 
 VIDEO_DURATION_SECONDS = 1
